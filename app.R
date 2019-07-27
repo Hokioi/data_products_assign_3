@@ -69,10 +69,10 @@ fulltable <- rbind(Amphetamine,
                    )
 
 
-# The following code creates a Shiny application that presents a chart of actual 
-# substances (determined through testing) for each presumed substance (what Know 
-# Your Stuff clients thought they had before testing). App users can use checkboxes 
-# to select which presumed substance/s they want to see results for.
+# The following code creates a Shiny application that presents a chart and table of 
+# substances (determined through testing) for each presumed substance (what  
+# KnowYourStuffNZ clients thought they had before testing). App users can use 
+# checkboxes to select which presumed substance/s they want to see results for.
 
 ##Define UI 
 
@@ -144,7 +144,7 @@ ui <- fluidPage(
 
 
 
-# Define server logic required to draw a the plot
+# Define server logic required to draw the plot and the table
 
 server <- function(input, output) {
 
