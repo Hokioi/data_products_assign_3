@@ -7,7 +7,8 @@ For this assignment I create a Shiny app that shows pill testing results from Kn
 
 The app can be found at: https://hokioi.shinyapps.io/KYSNZ_1819_results/ 
 
-The ui and server side code for the app are contained within the single script: app.R
+The ui and server side code for the app are contained within the single script: app.R.
+<br>
 Creating Shiny apps in a single script became supported in Shiny v0.10.2 and this is now a more normal approach than 
 separating code into ui.R and server.R scripts. I believe that the Developing Data Products assignment 3 requirements
 have not been updated to reflect this.
